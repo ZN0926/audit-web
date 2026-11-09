@@ -49,3 +49,8 @@ src/
 - 上传接口是**同步审计**：一次请求可能要 10–60 秒，axios 的 `timeout` 必须 ≥120000。
 - 后端返回的错误统一是 `{timestamp, status, error}`，直接展示 `error` 字段即可。
 - 答辩交付时：`npm run build` → 把 `dist/` 拷到后端的 `src/main/resources/static/` → `mvn package`，得到一个 jar。
+
+## 打包交付
+
+前端 `npm run build` 后，把 `dist/` 内容拷到后端 `src/main/resources/static/`，
+再 `mvn clean package`，得到单个 jar；运行时只需 JDK 21 + MySQL。

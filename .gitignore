@@ -14,3 +14,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+build.log
+mvn-build.log
+
+# Trae / 打包临时物
+.trae-html-share-packages/
+.pack/
+
+# 联调用的大文件样本（超过 10MB，不入库）
+test-data/BigDemo.java
