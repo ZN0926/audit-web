@@ -1,6 +1,6 @@
 # audit-web · 基于大语言模型的智能代码审计系统（前端）
 
-> 后端仓库：[graduation-audit](https://github.com/你的用户名/graduation-audit)（Spring Boot，端口 8080）
+> 后端仓库：[graduation-audit](https://github.com/ZN0926/graduation-audit)（Spring Boot，端口 8080）
 > 两个仓库分开，靠 HTTP 接口对接；接口清单见后端仓库的 `docs/接口说明.md`。
 
 上传一段 Java / Python 源码，页面会展示"审计进行到第几块"，完成后给出：
